@@ -2,7 +2,7 @@
 article,aside,audio,canvas,command,datalist,details,embed,figcaption,figure,footer,header,hgroup,keygen,meter,nav,output,progress,section,source,video {display:block}
 mark,rp,rt,ruby,summary,time {display:inline}
 /* Global properties */
-body {background:#fff;font-family:Arial,Helvetica,sans-serif;font-size:100%;line-height:1em;color:#5c5c5c}
+body {background:#fff;font-family:Helvetica,Arial,sans-serif;font-size:100%;line-height:1em;color:#5c5c5c}
 html {min-width:1000px}
 html,body {height:100%}
 /* Global Structure */
@@ -69,8 +69,8 @@ dl dt {}
 dl dd {}
 address {font-style:normal;line-height:1.538em;float:left;margin-right:55px}
 address b {width:84px !important;width:81px;float:left}
-#slogan {width:100%;height:270px;background:url(../images/ecbti.jpg) no-repeat right #e8e8e8;position:relative}
-#slogan p { width:200px; color:#124e68; font-size:26px; font-weight:300; font-family:"trebuchet MS"; text-align:right; left:10px; position:absolute;top:40px; padding: 15px 15px 15px 15px; border-radius: 8px 8px 8px 8px;
+#slogan {width:100%;height:270px;background:url(../images/ecbti.jpg) no-repeat right #e8e8e8;position:relative; border-radius: 15px ;-moz-border-radius: 15px;-webkit-border-radius: 15px;}
+#slogan p { width:200px; color:#124e68; font-size:26px; font-weight:300; font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif; font-style:italic; font-weight:400; text-align:right;  left:10px; position:absolute;top:40px; padding: 15px 15px 15px 15px; border-radius: 8px 8px 8px 8px;
 -moz-border-radius: 8px 8px 8px 8px;
 -webkit-border-radius: 8px 8px 8px 8px; }
 .indent {padding-bottom:49px}
@@ -86,8 +86,8 @@ h2 span {color:#f85811}
 .link1 span {display:block;background:url(../images/link1-border.gif) no-repeat left top}
 .link1 span span {background:url(../images/link1-border.gif) no-repeat right top;padding:3px 15px 3px 15px}
 /* boxes */
-.nav-box {width:100%;background-color:#124e68}
-.nav-box nav ul {height:77px;background-color:#124e68;overflow:hidden}
+.nav-box {width:100%;background-color:#124e68; border-radius: 0px 0px 15px 15px;-moz-border-radius: 0px 0px 15px 15px;-webkit-border-radius: 0px 0px 15px 15px}
+.nav-box nav ul {height:77px;background-color:#124e68;overflow:hidden;border-radius: 0px 0px 15px 15px;-moz-border-radius: 0px 0px 15px 15px; -webkit-border-radius: 0px 0px 15px 15px}
 .nav-box nav ul li {float:left; padding:0 60px 0 60px; left top;margin:0 2px 0 -2px}
 .nav-box nav ul li a {color:#F8F8F8;font-size:1.231em;line-height:1.2em;text-decoration:none;font-family:"trebuchet MS",Helvetica,sans-serif;text-transform:uppercase;display:block;padding-top:25px}
 .nav-box nav ul li a:hover,.nav-box nav ul li.current a {color:#f4af00}
@@ -103,7 +103,7 @@ h2 span {color:#f85811}
 aside .inside {padding:12px 45px 0 40px}
 aside h2 {letter-spacing:-1px}
 /* footer */
-footer .inside {padding-top:36px}
+footer .inside {padding-top:36px; background-color:#000000;color:#BDBDBB; border-radius: 15px 15px 0px 0px;-moz-border-radius: 15px 15px 0px 0px;-webkit-border-radius: 15px 15px 0px 00px;}
 #search-form a {float:left;margin-left:5px}
 #contacts-form {clear:right;width:100%;overflow:hidden}
 #contacts-form fieldset {border:none;float:left;}
